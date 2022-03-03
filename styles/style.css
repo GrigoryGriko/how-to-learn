@@ -92,7 +92,6 @@ h1, h2, h3, p {
   z-index: 0;
 }
 
-
 .description {
   display: flex;
   justify-content: center;
@@ -134,7 +133,6 @@ h1, h2, h3, p {
 .two-columns__span-accent {
   font-weight: bold;
 }
-
 
 .digits {
   display: flex;
@@ -186,7 +184,6 @@ h1, h2, h3, p {
   font-size: 18px;
   font-weight: normal;
 }
-
 
 
 /* и элемента с модификатором вида ключ-значение */
