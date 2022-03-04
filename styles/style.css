@@ -1,4 +1,4 @@
-h1, h2, h3, p {
+h1, h2, h3, h4, h5, h6, p {
   margin: 0;
 }
 
@@ -14,9 +14,6 @@ h1, h2, h3, p {
   font-family: 'Helvetica Neue', Arial, sans-serif;
 }
 
-.text_centerer {
-  text-align: center;
-}
 
 .logo {
   width: 183px;
@@ -47,8 +44,7 @@ h1, h2, h3, p {
   left: 64px;
   width: 730px;
   z-index: 999;
-}
-.header__title h1 {
+
   line-height: 96px;
   font-size: 102px;
   font-weight: bold;
@@ -70,7 +66,7 @@ h1, h2, h3, p {
   text-decoration: none;
 }
 
-.header__main_illustration {
+.header__main-illustration {
   position: absolute;
   right: 0;
   bottom: 0;
@@ -136,12 +132,12 @@ h1, h2, h3, p {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-top: 100px;
   padding-bottom: 100px;
 }
 .section-title {
   width: 60%;
   margin-bottom: 20px;
+  text-align: center;
 
   line-height: 1.15;
   font-size: 60px;
@@ -149,6 +145,7 @@ h1, h2, h3, p {
 }
 .section-subtitle {
   width: 60%;
+  text-align: center;
 
   line-height: 34px;
   font-size: 24px;
@@ -191,6 +188,7 @@ h1, h2, h3, p {
   position: relative;
   padding-top: 100px;
   height: 890px;
+  text-align: center;
 
   background-image: url(../images/feynman.png);
   background-color: #f2f2f2;
@@ -231,7 +229,6 @@ h1, h2, h3, p {
   display: flex;
   flex-direction: column;
   align-items: center;
-  position: relative;
   padding-top: 90px;
   padding-bottom: 90px;
   background-color: #1f1f1f;
@@ -252,6 +249,7 @@ h1, h2, h3, p {
 .section-title_theme_dark {
   width: 60%;
   margin-bottom: 20px;
+  text-align: center;
 
   line-height: 1.15;
   font-size: 60px;
@@ -261,6 +259,7 @@ h1, h2, h3, p {
 .section-subtitle_theme_dark {
   width: 60%;
 
+  text-align: center;
   line-height: 34px;
   font-size: 24px;
   font-weight: normal;
