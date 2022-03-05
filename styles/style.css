@@ -341,7 +341,7 @@
   margin-top: 20px;
   margin-bottom: 16px;
 }
-.footer__column-links_reset_styles {
+.footer__column-links_ul_reset-styles {
   margin: 0;
   padding: 0;
   list-style-type: none;
