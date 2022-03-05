@@ -43,10 +43,10 @@ ul {
 }
 
 .header__title {
+  margin: 0;
   margin-left: 64px;
   width: 730px;
   z-index: 999;
-  margin: 0;
 
   line-height: 96px;
   font-size: 102px;
@@ -54,12 +54,12 @@ ul {
 }
 
 .header__subtitle {
+  margin: 0;
   position: absolute;
   left: 64px;
   bottom: 30px;
   width: 388px;
   z-index: 999;
-  margin: 0;
 
   line-height: 25px;
   font-size: 18px;
