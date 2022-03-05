@@ -1,13 +1,10 @@
-h1, h2, h3, h4, h5, h6, p {
-  margin: 0;
-}
-
+/*
 ul {
   margin: 0;
   padding: 0;
   list-style-type: none;
 }
-
+*/
 
 .page {
   min-width: 1100px;
@@ -46,10 +43,10 @@ ul {
 }
 
 .header__title {
-  position: absolute;
-  left: 64px;
+  margin-left: 64px;
   width: 730px;
   z-index: 999;
+  margin: 0;
 
   line-height: 96px;
   font-size: 102px;
@@ -62,6 +59,7 @@ ul {
   bottom: 30px;
   width: 388px;
   z-index: 999;
+  margin: 0;
 
   line-height: 25px;
   font-size: 18px;
@@ -106,6 +104,8 @@ ul {
 }
 
 .two-columns__brief {
+  margin: 0;
+
   width: 175px;
   line-height: 1.2;
   font-size: 18px;
@@ -118,7 +118,6 @@ ul {
   flex-direction: column;
   min-width: 784px;
   width: 80%;
-  min-height: 252px;
 }
 
 .two-columns__paragraph {
@@ -141,6 +140,7 @@ ul {
   padding-bottom: 100px;
 }
 .section-title {
+  margin: 0;
   width: 60%;
   margin-bottom: 20px;
   text-align: center;
@@ -150,6 +150,7 @@ ul {
   font-weight: bold;
 }
 .section-subtitle {
+  margin: 0;
   width: 60%;
   text-align: center;
 
@@ -172,12 +173,14 @@ ul {
 }
 
 .table__heading {
+  margin: 0;
 
   line-height: 1.15;
   font-size: 24px;
   font-weight: bold;
 }
 .table__text {
+  margin: 0;
   margin-top: 20px;
 
   line-height: 1.2;
@@ -192,7 +195,7 @@ ul {
   align-items: center;
   position: relative;
   padding-top: 100px;
-  height: 890px;
+  min-height: 890px;
   text-align: center;
 
   background-image: url(../images/feynman.png);
@@ -202,6 +205,7 @@ ul {
   background-size: 867px 637px;
 }
 .feynman__title {
+  margin:0;
   width: 648px;
 
   line-height: 1.15;
@@ -239,7 +243,7 @@ ul {
   background-color: #1f1f1f;
 
   overflow: hidden;
-  z-index: -2;
+  z-index: 1;
 }
 
 .kaufman__triangle {
@@ -286,13 +290,15 @@ ul {
   background-color: #1f1f1f;
   padding-top: 60px;
   padding-bottom: 40px;
+  box-sizing: border-box;
+
+  min-height: 350px;
 }
 
 .footer__columns {
   display: flex;
   justify-content: space-between;
   width: 90%;
-  min-height: 350px;
 }
 
 .footer__column {
@@ -307,9 +313,11 @@ ul {
 }
 
 .logo_place_footer {
-  height: 32px;
+  height: 35px;
 }
 .footer__author {
+  margin: 0;
+
   margin-top: 18px;
   margin-bottom: 18px;
 
@@ -323,7 +331,12 @@ ul {
 
 }
 
+.footer__column_content_social {
+
+}
+
 .footer__column-heading {
+  margin: 0;
   line-height: 30px;
   font-size: 18px;
   font-weight: bold;
@@ -337,8 +350,6 @@ ul {
   margin-bottom: 16px;
 }
 .footer__column-link {
-  min-height: 10px;
-
   line-height: 30px;
   font-size: 18px;
   font-weight: normal;
@@ -350,4 +361,5 @@ ul {
 .footer__social-icon {
   width: 16px;
   height: 16px;
+  margin-right: 10px;
 }
