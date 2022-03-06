@@ -209,6 +209,7 @@
   font-weight: bold;
 }
 .feynman__subtitle {
+  margin: 0;
   margin-top: 70px;
 
   line-height: 51px;
@@ -345,7 +346,9 @@
   margin-top: 20px;
   margin-bottom: 16px;
 }
-.footer__column-links_ul_reset-styles {
+.footer__column-ul {
+  display: flex;
+  flex-direction: column;
   margin: 0;
   padding: 0;
   list-style-type: none;
