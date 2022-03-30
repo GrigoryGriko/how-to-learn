@@ -1,3 +1,5 @@
+@import url(../blocks/rotation/rotation.css);
+
 .page {
   min-width: 1100px;
   /* мы ещё не умеем делать мобильную версию сайта, */
@@ -125,6 +127,24 @@
   font-weight: bold;
 }
 
+.techniques {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 100px;
+}
+.cards {
+  margin: 0;    /*сброс базовых отступов и отметок списка*/
+  padding: 0;
+  list-style-type: none;
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 1100px;
+}
+
+
 .digits {
   display: flex;
   flex-direction: column;
@@ -152,7 +172,7 @@
 }
 
 .table {
-  margin: 0;
+  margin: 0;    /*сброс базовых отступов и отметок списка*/
   padding: 0;
   list-style-type: none;
 
@@ -209,6 +229,7 @@
   font-weight: bold;
 }
 .feynman__subtitle {
+  margin: 0;
   margin-top: 70px;
 
   line-height: 51px;
@@ -345,7 +366,9 @@
   margin-top: 20px;
   margin-bottom: 16px;
 }
-.footer__column-links_ul_reset-styles {
+.footer__column-ul {
+  display: flex;
+  flex-direction: column;
   margin: 0;
   padding: 0;
   list-style-type: none;
