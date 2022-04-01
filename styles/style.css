@@ -62,6 +62,11 @@
 .header__link {
   color: #2f80ed;
   text-decoration: none;
+
+  transition: opacity 0.3s ease;
+}
+.header__link:hover {
+  opacity: 74%;
 }
 
 .header__main-illustration {
@@ -287,6 +292,7 @@
 
 .khan__book-container {
   display: flex;
+  align-items: flex-start;
 
   margin-top: 68px;
 }
@@ -306,6 +312,11 @@
   font-weight: normal;
   color: #2f80ed;
   text-decoration: none;
+
+  transition: opacity 0.3s ease;
+}
+.khan__book-link:hover {
+  opacity: 74%;
 }
 
 
@@ -385,6 +396,10 @@
   color: #2f80ed;
   text-decoration: none;
 
+  transition: opacity 0.3s ease;
+}
+.feynman__link:hover {
+  opacity: 74%;
 }
 
 
@@ -436,6 +451,39 @@
 }
 .table__text_theme_dark {
   color: #fff;
+}
+
+
+.resources {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  padding-top: 100px;
+  padding-bottom: 217px;
+  background-color: #fff;
+}
+.resources__logo-zone {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+
+  margin-top: 80px;
+  width: 1100px;
+}
+.resources__logo-zone li {
+  text-align: center;
+  width: 270px;
+  height: 38px;
+}
+.resources__link {
+  text-decoration: none;
+
+  transition: opacity 0.3s ease;
+}
+.resources__link:hover {
+  opacity: 74%;
 }
 
 
@@ -501,6 +549,10 @@
 .footer__column-links {
   display: flex;
   flex-direction: column;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+
   margin-top: 20px;
   margin-bottom: 16px;
 }
@@ -517,6 +569,11 @@
   font-weight: normal;
   color: #fff;
   text-decoration: none;
+
+  transition: opacity 0.3s ease;
+}
+.footer__column-link:hover {
+  opacity: 74%;
 }
 
 
